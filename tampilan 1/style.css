@@ -341,8 +341,9 @@ ul.custom:before {
     z-index: 400;
     top: 125px
 }
+
 ul.custom>li.tom:before {
-     background: white;
+    background: white;
     display: inline-block;
     position: absolute;
     border-radius: 50%;
@@ -350,4 +351,68 @@ ul.custom>li.tom:before {
     left: 20px;
     width: 20px;
     height: 20px;
-    z-index: 400;}
+    z-index: 400;
+}
+
+.card-1 {
+    position: relative;
+    top: 20px;
+
+}
+
+.card-img {
+    height: 63px;
+    width: 67px;
+}
+
+.pos {
+    position: relative;
+    top: 12px;
+    left: 12px;
+}
+
+.text1 {
+    position: relative;
+    top: 0px;
+    right: 75px;
+    ;
+}
+
+.text2 {
+    position: relative;
+    top: 5px;
+    right: 82px;
+}
+
+.text3 {
+    position: relative;
+    top: 5px;
+    right: 82px;
+}
+
+.isi {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: white;
+}
+
+.card-e {
+    position: relative;
+    top: 60px;
+    right: 50px;
+}
+
+.card-j {
+    position: relative;
+    top: 60px;
+    right: -250px;
+}
+
+.card-a {
+    position: relative;
+    top: -50px;
+    right: 80px;
+}
